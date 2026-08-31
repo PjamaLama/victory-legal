@@ -21,7 +21,7 @@
 <body>
 
 <h1>Victory — Privacy Policy</h1>
-<p class="updated">Last updated: 21 August 2026</p>
+<p class="updated">Last updated: 31 August 2026</p>
 
 <p>Victory (“the app”, “we”, “us”) helps people work toward freedom from pornography
 using streak tracking, Scripture, and accountability. This policy explains what the
@@ -75,8 +75,12 @@ developer. We are not a company. For any privacy question or request, contact
   <tr>
     <td><strong>Diagnostics and usage</strong></td>
     <td>Crash reports, device model, OS version, and in-app events such as screens
-        viewed.</td>
-    <td>To fix crashes and understand which parts of the app help people.</td>
+        viewed, buttons used, and whether you completed onboarding or purchased.
+        On the waitlist website: pages viewed, quiz answers (age band, how long
+        you have been fighting, frequency), and whether you signed up, downloaded
+        the plan, or joined WhatsApp. We do not send your email address to the
+        analytics provider.</td>
+    <td>To fix crashes and understand which parts of the app and website help people.</td>
   </tr>
   <tr>
     <td><strong>Notifications</strong></td>
@@ -98,6 +102,12 @@ We use the following processors, who handle data on our behalf:</p>
   <li><strong>Google Firebase</strong> (Authentication, Firestore, Analytics,
       Crashlytics, Remote Config, Cloud Messaging) — account, recovery data,
       diagnostics, and notification delivery.</li>
+  <li><strong>PostHog</strong> — product analytics for the app and the waitlist
+      website (screens and pages viewed, funnel events, feature use). PostHog
+      does not receive your email, name, journal, prayer log, or verse reading.
+      We do not use session replay, so PostHog does not record your screen.
+      PostHog processes this as our processor, not to sell it or to advertise
+      to you.</li>
   <li><strong>RevenueCat</strong> — subscription status and purchase validation.</li>
   <li><strong>Apple</strong> and <strong>Google</strong> — sign-in, and payment
       processing for subscriptions.</li>
@@ -111,15 +121,19 @@ entries, prayer log, or check-in notes.</p>
 good faith that it is necessary to prevent imminent harm to someone.</p>
 
 <h2>4. Where data is stored</h2>
-<p>Data is stored on Google Cloud infrastructure and may be processed in countries
-other than your own, including the United States. Where we transfer data out of the
-UK, EEA, or South Africa, we rely on our processors’ standard contractual clauses.</p>
+<p>Account and recovery data is stored on Google Cloud infrastructure. Product
+analytics are stored by PostHog in the United States (or the EU, if we configure
+an EU project). Data may be processed in countries other than your own. Where we
+transfer data out of the UK, EEA, or South Africa, we rely on our processors’
+standard contractual clauses.</p>
 
 <h2>5. How long we keep it</h2>
 <p>We keep your data for as long as your account exists. If you delete your account,
 we delete your account record and its associated recovery data from our live systems,
-and it falls out of encrypted backups within 30 days. Aggregated statistics that
-cannot identify you may be retained.</p>
+and it falls out of encrypted backups within 30 days. Analytics events that cannot
+reasonably identify you may be retained in aggregate. The waitlist website stores a
+small identifier in your browser (local storage / a cookie) so we can tell a
+returning visit from a new one; it is not an advertising cookie.</p>
 
 <h2>6. Deleting your data</h2>
 <p>You can delete your account and all associated data from inside the app, under
